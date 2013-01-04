@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Project SYSTEM "Project-4.6.dtd">
+<!-- eric4 project file for project GaInOS_Studio -->
+<!-- Saved: 2013-01-01, 14:58:13 -->
+<!-- Copyright (C) 2013 parai, parai@foxmail.com -->
+<Project version="4.6">
+  <Language>en</Language>
+  <ProgLanguage mixed="0">Python</ProgLanguage>
+  <ProjectType>Qt4</ProjectType>
+  <Description></Description>
+  <Version>0.1</Version>
+  <Author>parai</Author>
+  <Email>parai@foxmail.com</Email>
+  <Sources>
+    <Source>Ui_wmain.py</Source>
+    <Source>GaInOS.py</Source>
+    <Source>GaInOS_Studio.py</Source>
+    <Source>GaInOsGen.py</Source>
+    <Source>GaInOsSaveAndLoadXml.py</Source>
+    <Source>GaInOsCfgCheck.py</Source>
+    <Source>Ui_SchedTable.py</Source>
+    <Source>GaInOS_SchedTbl.py</Source>
+    <Source>SchedTable.py</Source>
+  </Sources>
+  <Forms>
+    <Form>wmain.ui</Form>
+    <Form>SchedTable.ui</Form>
+  </Forms>
+  <Translations>
+  </Translations>
+  <Resources>
+  </Resources>
+  <Interfaces>
+  </Interfaces>
+  <Others>
+  </Others>
+  <MainScript>GaInOS_Studio.py</MainScript>
+  <Vcs>
+    <VcsType>None</VcsType>
+  </Vcs>
+  <FiletypeAssociations>
+    <FiletypeAssociation pattern="*.ui" type="FORMS" />
+    <FiletypeAssociation pattern="*.idl" type="INTERFACES" />
+    <FiletypeAssociation pattern="*.qm" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.ptl" type="SOURCES" />
+    <FiletypeAssociation pattern="*.pyw" type="SOURCES" />
+    <FiletypeAssociation pattern="*.ui.h" type="FORMS" />
+    <FiletypeAssociation pattern="*.ts" type="TRANSLATIONS" />
+    <FiletypeAssociation pattern="*.py" type="SOURCES" />
+    <FiletypeAssociation pattern="*.qrc" type="RESOURCES" />
+  </FiletypeAssociations>
+</Project>

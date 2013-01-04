@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Tasks SYSTEM "Tasks-4.2.dtd">
+<!-- eric4 tasks file for project GaInOS_Studio -->
+<!-- Saved: 2013-01-01, 15:39:17 -->
+<Tasks version="4.2">
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>44</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>52</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>60</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>68</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>76</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>84</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>92</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>100</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>108</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>116</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>124</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>132</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>140</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-03, 12:30:29</Created>
+    <Resource>
+      <Filename>wmain2.py</Filename>
+      <Linenumber>148</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-06, 20:12:46</Created>
+    <Resource>
+      <Filename>DlgEvent.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-06, 20:12:46</Created>
+    <Resource>
+      <Filename>DlgEvent.py</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-06, 20:12:46</Created>
+    <Resource>
+      <Filename>DlgEvent.py</Filename>
+      <Linenumber>44</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-11-06, 20:12:46</Created>
+    <Resource>
+      <Filename>DlgEvent.py</Filename>
+      <Linenumber>52</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-12-27, 20:21:14</Created>
+    <Resource>
+      <Filename>wmain.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-12-27, 21:49:02</Created>
+    <Resource>
+      <Filename>SchedTable33333.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2012-12-27, 21:49:02</Created>
+    <Resource>
+      <Filename>SchedTable33333.py</Filename>
+      <Linenumber>36</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2013-01-01, 14:39:58</Created>
+    <Resource>
+      <Filename>SchedTable.py</Filename>
+      <Linenumber>28</Linenumber>
+    </Resource>
+  </Task>
+  <Task priority="1" completed="False" bugfix="False">
+    <Summary>TODO: not implemented yet</Summary>
+    <Description></Description>
+    <Created>2013-01-01, 15:10:47</Created>
+    <Resource>
+      <Filename>GaInOS_Studio.py</Filename>
+      <Linenumber>1175</Linenumber>
+    </Resource>
+  </Task>
+</Tasks>
