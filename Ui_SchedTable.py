@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'F:\parai@foxmail.com\nt\GaInOS_Studio\SchedTable.ui'
 #
-# Created: Tue Jan 01 15:13:57 2013
+# Created: Sat Jan 05 22:36:06 2013
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -17,7 +17,7 @@ except AttributeError:
 class Ui_ScheduleTable(object):
     def setupUi(self, ScheduleTable):
         ScheduleTable.setObjectName(_fromUtf8("ScheduleTable"))
-        ScheduleTable.resize(816, 550)
+        ScheduleTable.resize(816, 584)
         font = QtGui.QFont()
         font.setFamily(_fromUtf8("Consolas"))
         font.setPointSize(12)
@@ -25,10 +25,10 @@ class Ui_ScheduleTable(object):
         font.setBold(False)
         ScheduleTable.setFont(font)
         self.trSchedTable = QtGui.QTreeWidget(ScheduleTable)
-        self.trSchedTable.setGeometry(QtCore.QRect(20, 10, 371, 521))
+        self.trSchedTable.setGeometry(QtCore.QRect(20, 10, 371, 561))
         self.trSchedTable.setObjectName(_fromUtf8("trSchedTable"))
         self.tblSchedTable = QtGui.QTabWidget(ScheduleTable)
-        self.tblSchedTable.setGeometry(QtCore.QRect(410, 400, 391, 121))
+        self.tblSchedTable.setGeometry(QtCore.QRect(410, 450, 391, 121))
         self.tblSchedTable.setObjectName(_fromUtf8("tblSchedTable"))
         self.tab = QtGui.QWidget()
         self.tab.setObjectName(_fromUtf8("tab"))
@@ -87,7 +87,7 @@ class Ui_ScheduleTable(object):
         self.horizontalLayout_3.addWidget(self.spbxSchedEpOffset)
         self.tblSchedTable.addTab(self.tab_3, _fromUtf8(""))
         self.layoutWidget3 = QtGui.QWidget(ScheduleTable)
-        self.layoutWidget3.setGeometry(QtCore.QRect(410, 50, 183, 95))
+        self.layoutWidget3.setGeometry(QtCore.QRect(410, 20, 183, 95))
         self.layoutWidget3.setObjectName(_fromUtf8("layoutWidget3"))
         self.verticalLayout = QtGui.QVBoxLayout(self.layoutWidget3)
         self.verticalLayout.setMargin(0)
@@ -103,7 +103,7 @@ class Ui_ScheduleTable(object):
         self.btnDelete.setObjectName(_fromUtf8("btnDelete"))
         self.verticalLayout.addWidget(self.btnDelete)
         self.layoutWidget4 = QtGui.QWidget(ScheduleTable)
-        self.layoutWidget4.setGeometry(QtCore.QRect(410, 170, 383, 209))
+        self.layoutWidget4.setGeometry(QtCore.QRect(410, 131, 383, 302))
         self.layoutWidget4.setObjectName(_fromUtf8("layoutWidget4"))
         self.gridLayout = QtGui.QGridLayout(self.layoutWidget4)
         self.gridLayout.setMargin(0)
@@ -158,6 +158,34 @@ class Ui_ScheduleTable(object):
         self.cmbxSchedTblSyncStrategy.addItem(_fromUtf8(""))
         self.cmbxSchedTblSyncStrategy.addItem(_fromUtf8(""))
         self.gridLayout.addWidget(self.cmbxSchedTblSyncStrategy, 6, 1, 1, 1)
+        self.label_9 = QtGui.QLabel(self.layoutWidget4)
+        self.label_9.setObjectName(_fromUtf8("label_9"))
+        self.gridLayout.addWidget(self.label_9, 7, 0, 1, 1)
+        self.spbxSchedTblMaxAdvance = QtGui.QSpinBox(self.layoutWidget4)
+        self.spbxSchedTblMaxAdvance.setMinimumSize(QtCore.QSize(181, 0))
+        self.spbxSchedTblMaxAdvance.setMinimum(1)
+        self.spbxSchedTblMaxAdvance.setMaximum(65535)
+        self.spbxSchedTblMaxAdvance.setObjectName(_fromUtf8("spbxSchedTblMaxAdvance"))
+        self.gridLayout.addWidget(self.spbxSchedTblMaxAdvance, 7, 1, 1, 1)
+        self.label_10 = QtGui.QLabel(self.layoutWidget4)
+        self.label_10.setObjectName(_fromUtf8("label_10"))
+        self.gridLayout.addWidget(self.label_10, 8, 0, 1, 1)
+        self.spbxSchedTblMaxRetard = QtGui.QSpinBox(self.layoutWidget4)
+        self.spbxSchedTblMaxRetard.setMinimumSize(QtCore.QSize(181, 0))
+        self.spbxSchedTblMaxRetard.setMinimum(1)
+        self.spbxSchedTblMaxRetard.setMaximum(65535)
+        self.spbxSchedTblMaxRetard.setObjectName(_fromUtf8("spbxSchedTblMaxRetard"))
+        self.gridLayout.addWidget(self.spbxSchedTblMaxRetard, 8, 1, 1, 1)
+        self.label_11 = QtGui.QLabel(self.layoutWidget4)
+        self.label_11.setObjectName(_fromUtf8("label_11"))
+        self.gridLayout.addWidget(self.label_11, 9, 0, 1, 1)
+        self.spbxSchedTblPrecision = QtGui.QSpinBox(self.layoutWidget4)
+        self.spbxSchedTblPrecision.setMinimumSize(QtCore.QSize(181, 0))
+        self.spbxSchedTblPrecision.setMinimum(0)
+        self.spbxSchedTblPrecision.setMaximum(65535)
+        self.spbxSchedTblPrecision.setProperty(_fromUtf8("value"), 0)
+        self.spbxSchedTblPrecision.setObjectName(_fromUtf8("spbxSchedTblPrecision"))
+        self.gridLayout.addWidget(self.spbxSchedTblPrecision, 9, 1, 1, 1)
 
         self.retranslateUi(ScheduleTable)
         self.tblSchedTable.setCurrentIndex(2)
@@ -189,6 +217,9 @@ class Ui_ScheduleTable(object):
         self.cmbxSchedTblSyncStrategy.setItemText(0, QtGui.QApplication.translate("ScheduleTable", "NONE", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxSchedTblSyncStrategy.setItemText(1, QtGui.QApplication.translate("ScheduleTable", "EXPLICIT", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxSchedTblSyncStrategy.setItemText(2, QtGui.QApplication.translate("ScheduleTable", "IMPLICIT", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_9.setText(QtGui.QApplication.translate("ScheduleTable", "Max Advance:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_10.setText(QtGui.QApplication.translate("ScheduleTable", "Max Retard:", None, QtGui.QApplication.UnicodeUTF8))
+        self.label_11.setText(QtGui.QApplication.translate("ScheduleTable", "Precision:", None, QtGui.QApplication.UnicodeUTF8))
 
 
 if __name__ == "__main__":

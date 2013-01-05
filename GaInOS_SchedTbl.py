@@ -30,7 +30,7 @@ class DlgScheduleTable(QDialog, Ui_ScheduleTable):
         #根据table 刷新界面树，初始化
         index=0;
         for ep in self.pxSchedTbl.xSchedTblEpList:
-            defaultName=QString('Expiry Point %s'%(index));
+            defaultName=QString('Expiry Point %s(%s)'%(index, ep[0]));
             pxTreeIlem=QTreeWidgetItem(self.trSchedTable,QStringList(defaultName));
             self.trSchedTable.addTopLevelItem(pxTreeIlem);
             index+=1;
@@ -352,6 +352,8 @@ class DlgScheduleTable(QDialog, Ui_ScheduleTable):
         """刷新Ep的offset"""
         if(self.pxCurSelEp!=None):
             self.pxCurSelEp[0]=p0;
+            self.pxCurSelTreeItem.setText(0, 'Expiry Point %s(%s)'%(
+                self.trSchedTable.indexOfTopLevelItem(self.pxCurSelTreeItem), p0));
 
     @pyqtSignature("bool")
     def on_cbxSchedTblRepeatable_clicked(self, checked):

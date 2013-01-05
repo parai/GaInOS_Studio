@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project GaInOS_Studio -->
-<!-- Saved: 2013-01-01, 14:58:13 -->
+<!-- Saved: 2013-01-05, 22:43:15 -->
 <!-- Copyright (C) 2013 parai, parai@foxmail.com -->
 <Project version="4.6">
   <Language>en</Language>
@@ -20,7 +20,6 @@
     <Source>GaInOsCfgCheck.py</Source>
     <Source>Ui_SchedTable.py</Source>
     <Source>GaInOS_SchedTbl.py</Source>
-    <Source>SchedTable.py</Source>
   </Sources>
   <Forms>
     <Form>wmain.ui</Form>

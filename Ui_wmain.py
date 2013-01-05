@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'F:\parai@foxmail.com\nt\GaInOS_Studio\wmain.ui'
 #
-# Created: Tue Jan 01 15:13:57 2013
+# Created: Sat Jan 05 22:36:06 2013
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!

@@ -92,6 +92,9 @@ class GaInOsScheduleTable():
         self.xSchedTblAbsRelValue=0;
         self.xSchedTblFinalDelay=10;
         self.xSchedTblSyncStrategy='NONE';
+        self.xSchedTblMaxAdvance=2;
+        self.xSchedTblMaxRetard=2;
+        self.xSchedTblExplicitPrecision=1;
         #Schedule table expiry point list
         #为了简单处理，利用链表特性
         #[
