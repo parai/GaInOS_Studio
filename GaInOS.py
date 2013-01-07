@@ -91,10 +91,10 @@ class GaInOsScheduleTable():
         self.xSchedTblAutostartType='RELATIVE';
         self.xSchedTblAbsRelValue=0;
         self.xSchedTblFinalDelay=10;
-        self.xSchedTblSyncStrategy='NONE';
+        self.xSchedTblSyncStrategy='EXPLICIT';
         self.xSchedTblMaxAdvance=2;
         self.xSchedTblMaxRetard=2;
-        self.xSchedTblExplicitPrecision=1;
+        self.xSchedTblExplicitPrecision=0;
         #Schedule table expiry point list
         #为了简单处理，利用链表特性
         #[
@@ -109,14 +109,17 @@ class GaInOsScheduleTable():
         #转换为字符串信息并返回
         str='';
         index=0;
-        str+='Schedule Table Repeatable:<%s>\n'%(self.xSchedTblRepeatable);
-        str+='Schedule Table Driving Counter is <%s>\n'%(self.xSchedTblDrivingCounter);
-        str+='Schedule Table Autostartable:<%s>\n'%(self.xSchedTblAutostartable);
+        str+='Schedule Table Repeatable:<%s>.\n'%(self.xSchedTblRepeatable);
+        str+='Schedule Table Driving Counter is <%s>.\n'%(self.xSchedTblDrivingCounter);
+        str+='Schedule Table Autostartable:<%s>.\n'%(self.xSchedTblAutostartable);
         if(self.xSchedTblAutostartable==True):
-            str+='Autostarting Type is <%s>\n'%(self.xSchedTblAutostartType);
+            str+='Autostarting Type is <%s>.\n'%(self.xSchedTblAutostartType);
             str+='Will be autostarted at value <%s>.\n'%(self.xSchedTblAbsRelValue);
-        str+='Schedule Table Final Delay is <%s> Ticks\n'%(self.xSchedTblFinalDelay);
-        str+='Schedule Table Sync Strategy is <%s>\n'%(self.xSchedTblSyncStrategy);
+        str+='Schedule Table Final Delay is <%s> Ticks.\n'%(self.xSchedTblFinalDelay);
+        str+='Schedule Table Sync Strategy is <%s>.\n'%(self.xSchedTblSyncStrategy);
+        str+='Schedule Table Max Advance is <%s> Ticks.\n'%(self.xSchedTblMaxAdvance);
+        str+='Schedule Table Max Retard is <%s> Ticks.\n'%(self.xSchedTblMaxRetard);
+        str+='Schedule Table Explicit Precision is <%s> Ticks.\n'%(self.xSchedTblExplicitPrecision);
         for ep in self.xSchedTblEpList:
             str+='(Expiry Point %s(offset=%s)\n'%(index, ep[0]);
             index+=1;

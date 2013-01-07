@@ -46,6 +46,9 @@ class DlgScheduleTable(QDialog, Ui_ScheduleTable):
         self.cmbxSchedTblSyncStrategy.setCurrentIndex(self.vDoGetSyncStrategy());
         self.spbxSchedTblAbsRel.setValue(self.pxSchedTbl.xSchedTblAbsRelValue);
         self.spbxSchedTblFinalDelay.setValue(self.pxSchedTbl.xSchedTblFinalDelay);
+        self.spbxSchedTblMaxAdvance.setValue(self.pxSchedTbl.xSchedTblMaxAdvance);
+        self.spbxSchedTblMaxRetard.setValue(self.pxSchedTbl.xSchedTblMaxRetard);
+        self.spbxSchedTblPrecision.setValue(self.pxSchedTbl.xSchedTblExplicitPrecision);
         index=-1;
         i=0;
         for cnt in self.parent.pxGaInOSCounterCfgList:
@@ -406,3 +409,26 @@ class DlgScheduleTable(QDialog, Ui_ScheduleTable):
     def on_cmbxSchedTblSyncStrategy_currentIndexChanged(self, p0):
         """修改同步策略"""
         self.pxSchedTbl.xSchedTblSyncStrategy=p0;
+        if(p0=='EXPLICIT'):
+            self.spbxSchedTblMaxAdvance.setDisabled(False);
+            self.spbxSchedTblMaxRetard.setDisabled(False);
+            self.spbxSchedTblPrecision.setDisabled(False);
+        else:
+            self.spbxSchedTblMaxAdvance.setDisabled(True);
+            self.spbxSchedTblMaxRetard.setDisabled(True);
+            self.spbxSchedTblPrecision.setDisabled(True);
+    
+    @pyqtSignature("int")
+    def on_spbxSchedTblMaxAdvance_valueChanged(self, p0):
+        """修改最大允许前进值"""
+        self.pxSchedTbl.xSchedTblMaxAdvance=p0;
+    
+    @pyqtSignature("int")
+    def on_spbxSchedTblMaxRetard_valueChanged(self, p0):
+        """修改最大允许后退值"""
+        self.pxSchedTbl.xSchedTblMaxRetard=p0;
+    
+    @pyqtSignature("int")
+    def on_spbxSchedTblPrecision_valueChanged(self, p0):
+        """修改精度"""
+        self.pxSchedTbl.xSchedTblExplicitPrecision=p0;

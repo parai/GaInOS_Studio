@@ -147,7 +147,10 @@ class GaInOsSaveXml():
             self.fp.write('autostarttype=\'%s\' '%(tbl.xSchedTblAutostartType));
             self.fp.write('absrelvalue=\'%s\' '%(tbl.xSchedTblAbsRelValue));
             self.fp.write('finaldelay=\'%s\' '%(tbl.xSchedTblFinalDelay));
-            self.fp.write('strategy=\'%s\'>\n'%(tbl.xSchedTblSyncStrategy));
+            self.fp.write('strategy=\'%s\' '%(tbl.xSchedTblSyncStrategy));
+            self.fp.write('max_advance=\'%s\' '%(tbl.xSchedTblMaxAdvance));
+            self.fp.write('max_retard=\'%s\' '%(tbl.xSchedTblMaxRetard));
+            self.fp.write('precision=\'%s\'>\n'%(tbl.xSchedTblExplicitPrecision));
             for ep in tbl.xSchedTblEpList:
                 self.fp.write('\t\t\t<ExpiryPoint offset=\'%s\'>\n'%(ep[0]));
                 for epsub in ep[1]:
@@ -365,6 +368,9 @@ class GaInOsLoadXml():
             tbl.xSchedTblAbsRelValue=int(tblNode.attrib['absrelvalue']);
             tbl.xSchedTblFinalDelay=int(tblNode.attrib['finaldelay']);
             tbl.xSchedTblSyncStrategy=tblNode.attrib['strategy'];
+            tbl.xSchedTblMaxAdvance=int(tblNode.attrib['max_advance']);
+            tbl.xSchedTblMaxRetard=int(tblNode.attrib['max_retard']);
+            tbl.xSchedTblExplicitPrecision=int(tblNode.attrib['precision']);
             eplist=[];
             for epNode in tblNode:
                 epsub=[int(epNode.attrib['offset']), []];

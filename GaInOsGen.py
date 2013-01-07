@@ -368,7 +368,10 @@ class GaInOsGen():
                 OsSchedTblInfo+='\t\tSTD_FALSE,\t\t/* xOsScheduleTableAutostart */\n';
             OsSchedTblInfo+='\t\t%s,\t\t/* xOsScheduleTableAutostartType */\n'%(tbl.xSchedTblAutostartType);
             OsSchedTblInfo+='\t\t%s,\t\t/* xOsScheduleTableAutostartValue */\n'%(tbl.xSchedTblAbsRelValue);
-            OsSchedTblInfo+='\t\t%s\t\t/* xOsScheduleTableSyncStrategy */\n'%(tbl.xSchedTblSyncStrategy);
+            OsSchedTblInfo+='\t\t%s,\t\t/* xOsScheduleTableSyncStrategy */\n'%(tbl.xSchedTblSyncStrategy);
+            OsSchedTblInfo+='\t\t%s,\t\t/* xOsScheduleTableMaxAdvance */\n'%(tbl.xSchedTblMaxAdvance);
+            OsSchedTblInfo+='\t\t%s,\t\t/* xOsScheduleTableMaxRetard */\n'%(tbl.xSchedTblMaxRetard);
+            OsSchedTblInfo+='\t\t%s\t\t/* xOsScheduleTableExplicitPrecision */\n'%(tbl.xSchedTblExplicitPrecision);
             OsSchedTblInfo+='\t},\n';
             schedTbl+='static const OsSchedTblCmdType g_%s[%s]=\n{\n'%(tbl.xScheduleTableName, len(tbl.xSchedTblEpList)+1);
             index=0;
