@@ -141,6 +141,8 @@ class GaInOsGen():
     def vDoGenCfgObjC(self):
         fp=self.fp_CfgObj_c;
         fp.write('#include "CfgObj.h"\n#include "Serial.h"\n\n');
+        if(self.xGaInOSGeneralCfg.xOSCpuType=='ARM'):
+            fp.write('const TaskType G_INVALID_TASK=INVALID_TASK;\n\n');
 #For Internal Resource
         if(self.xGaInOSGeneralCfg.xOSUseInRes==True):
             fp.write('/* GaInOS Internal Resource Configuration */\n');
@@ -167,7 +169,7 @@ class GaInOsGen():
             cntBase+='\t{\t/* %s */\n\t\t%s,\t\t/* xMaxAllowedValue */\n'%(cnt.xCounterName, 
                                                                            cnt.xCounterMaxAllowValue);
             cntBase+='\t\t%s,\t\t/* xTicksPerBase */\n'%(cnt.xCounterTickPerBase);
-            cntBase+='\t\t%s,\t\t/* xMinCycle */\n\t},\n'%(cnt.xCounterMinCycle);
+            cntBase+='\t\t%s\t\t/* xMinCycle */\n\t},\n'%(cnt.xCounterMinCycle);
         fp.write('const AlarmBaseType OSCounterBaseTable[cfgOS_COUNTER_NUM]=\n{\n%s};\n\n'%(
                         cntBase));
         if(self.xGaInOSGeneralCfg.xOSUseAlarm==True):
@@ -301,21 +303,21 @@ class GaInOsGen():
         fp.write('#define cfgOS_START_UP_HOOK 0\n');
         fp.write('#define cfgOS_ERROR_HOOK 0\n');
         fp.write('#define cfgOS_PRE_TASK_HOOK 0\n');
-        fp.write('#define cfgOS_POST_TASK_HOOK 0\n');
+        fp.write('#define cfgOS_POST_TASK_HOOK 0\n\n');
         #end
         fp.write('/* For %s */\n'%(self.xGaInOSGeneralCfg.xOSCpuType));
         if(self.xGaInOSGeneralCfg.xOSCpuType=='MC9S12(X)'):
-            fp.write('\n%s\n%s\n%s\n'%(
+            fp.write('%s\n%s\n%s\n'%(
                 'typedef uint8_t OsCpuSrType;', 
                 'typedef uint8_t OsCpuIplType;', 
                 '#endif /* _OS_CFG_H_ */' ));
         elif(self.xGaInOSGeneralCfg.xOSCpuType=='ARM'):
-            fp.write('\n%s\n%s\n%s\n'%(
+            fp.write('%s\n%s\n%s\n'%(
                 'typedef uint32_t OsCpuSrType;', 
                 'typedef uint32_t OsCpuIplType;', 
                 '#endif /* _OS_CFG_H_ */' ));
         elif(self.xGaInOSGeneralCfg.xOSCpuType=='C166'):
-            fp.write('\n%s\n%s\n%s\n\n\n'%(
+            fp.write('%s\n%s\n%s\n\n\n'%(
                 'typedef uint16_t OsCpuSrType;', 
                 'typedef uint16_t OsCpuIplType;', 
                 '#endif /* _OS_CFG_H_ */' ));
@@ -379,6 +381,7 @@ class GaInOsGen():
                 schedCmd+='static void %s_CmdEp%s(void)\n{\n'%(tbl.xScheduleTableName, index);
                 for epsub in ep[1]:
                     schedCmd+='\t(void)%s;\n'%(epsub);
+                schedCmd+='\tOSMakeNextExpiryPointReady(%s);\n'%(tbl.xScheduleTableName);
                 schedCmd+='}\n';
                 schedTbl+='\t{\n\t\t%s,\n\t\t%s_CmdEp%s\n\t},\n'%(ep[0], tbl.xScheduleTableName, index)
                 index+=1;
