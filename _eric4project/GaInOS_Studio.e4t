@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Tasks SYSTEM "Tasks-4.2.dtd">
 <!-- eric4 tasks file for project GaInOS_Studio -->
-<!-- Saved: 2013-01-13, 19:20:08 -->
+<!-- Saved: 2013-01-16, 22:30:02 -->
 <Tasks version="4.2">
   <Task priority="1" completed="False" bugfix="False">
     <Summary>TODO: not implemented yet</Summary>
@@ -240,7 +240,7 @@
   <Task priority="1" completed="False" bugfix="False">
     <Summary>TODO: not implemented yet</Summary>
     <Description></Description>
-    <Created>2013-01-13, 19:19:40</Created>
+    <Created>2013-01-16, 22:21:38</Created>
     <Resource>
       <Filename>GaInOS_Studio.py</Filename>
       <Linenumber>1175</Linenumber>

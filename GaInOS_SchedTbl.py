@@ -117,7 +117,7 @@ class DlgScheduleTable(QDialog, Ui_ScheduleTable):
             offset=10;
         else:
             offset=10+self.pxSchedTbl.xSchedTblEpList[length-1][0];
-        defaultName=QString('Expiry Point %s'%(length));
+        defaultName=QString('Expiry Point %s(%s)'%(length,offset));
         pxTreeIlem=QTreeWidgetItem(self.trSchedTable,QStringList(defaultName));
         self.trSchedTable.addTopLevelItem(pxTreeIlem);
         self.pxSchedTbl.xSchedTblEpList.append([offset,[] ]);
@@ -250,7 +250,8 @@ class DlgScheduleTable(QDialog, Ui_ScheduleTable):
         """刷新expiry point名称，使其顺序"""
         for index in range(0, self.trSchedTable.topLevelItemCount()):
             item=self.trSchedTable.topLevelItem(index);
-            item.setText(0, 'Expiry Point %s'%(index));
+            item.setText(0, 'Expiry Point %s(%s)'%(index,
+                    self.pxSchedTbl.xSchedTblEpList[index][0]));
 
     def vDoRefreshActivateTaskTab(self, xTaskId):
         self.cmbxActTskId.clear();
