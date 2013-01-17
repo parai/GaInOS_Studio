@@ -381,6 +381,7 @@ class GaInOsGen():
                 schedCmd+='static void %s_CmdEp%s(void)\n{\n'%(tbl.xScheduleTableName, index);
                 for epsub in ep[1]:
                     schedCmd+='\t(void)%s;\n'%(epsub);
+                schedCmd+='\tOSMakeNextExpiryPointReady(%s);\n'%(tbl.xScheduleTableName);
                 schedCmd+='}\n';
                 schedTbl+='\t{\n\t\t%s,\n\t\t%s_CmdEp%s\n\t},\n'%(ep[0], tbl.xScheduleTableName, index)
                 index+=1;
