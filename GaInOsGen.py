@@ -324,7 +324,7 @@ class GaInOsGen():
         elif(self.xGaInOSGeneralCfg.xOSCpuType=='Tri-Core'):
             fp.write('%s\n%s\n%s\n\n\n'%(
                 'typedef uint32_t OsCpuSrType;', 
-                'typedef uint32_t OsCpuIplType;', 
+                'typedef uint8_t  OsCpuIplType;', 
                 '#endif /* _OS_CFG_H_ */' ));
 
     def vDoGenCfgRdyQueueC(self):
