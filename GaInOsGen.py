@@ -141,7 +141,7 @@ class GaInOsGen():
     def vDoGenCfgObjC(self):
         fp=self.fp_CfgObj_c;
         fp.write('#include "CfgObj.h"\n#include "Serial.h"\n\n');
-        if(self.xGaInOSGeneralCfg.xOSCpuType=='ARM'):
+        if(self.xGaInOSGeneralCfg.xOSCpuType=='ARM920T'):
             fp.write('const TaskType G_INVALID_TASK=INVALID_TASK;\n\n');
 #For Internal Resource
         if(self.xGaInOSGeneralCfg.xOSUseInRes==True):
@@ -218,7 +218,7 @@ class GaInOsGen():
             taskEntry+='\tTaskEntry(%s),\n'%(tsk.xTaskName);
             taskFun+='TASK(%s){\n/* Add Your Task Code Here. */\n\n%s\n}\n\n'%(
                tsk.xTaskName, 
-               '\tprintk("%s is running.\\n");\n\t(void)TerminateTask();'%(tsk.xTaskName));
+               '\tprintk("%s is running.\\r\\n");\n\t(void)TerminateTask();'%(tsk.xTaskName));
         fp.write('%s\n'%(stack));
         fp.write('const TaskStackRefType OSTaskStackTable[cfgOS_TASK_NUM]=\n{\n%s};\n\n'%(stackRef));
         fp.write('const PriorityType OSTaskInitPriorityTable[cfgOS_TASK_NUM]=\n{\n%s};\n\n'%(priority));
