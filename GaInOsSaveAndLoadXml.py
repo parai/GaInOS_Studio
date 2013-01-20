@@ -26,10 +26,12 @@ def vGetConfClsIndex(cls):
 def vGetCpuTypeIndex(type):
     if(type=='MC9S12(X)'):
         return 0;
-    elif(type=='ARM'):
+    elif(type=='ARM920T'):
         return 1;
     elif(type=='C166'):
-        return 2;        
+        return 2; 
+    elif(type=='Tri-Core'):
+        return 3; 
     else:
         return -1;
 
@@ -312,6 +314,7 @@ class GaInOsLoadXml():
             cnt.xCounterMinCycle=int(cntNode.find('CounterMinCycle').text);
             cnt.xCounterTickPerBase=int(cntNode.find('CounterTickPerBase').text);
             self.parent.pxGaInOSCounterCfgList.append(cnt);
+        self.parent.xCounterNum=len(self.parent.pxGaInOSCounterCfgList);
         #刷新界面
         TreeIlem=self.parent.trGaInOsCfgList.topLevelItem(3);
         for index in range(0, TreeIlem.childCount()):
@@ -335,6 +338,7 @@ class GaInOsLoadXml():
             alm.xAlarmTask=almNode.find('AlarmTask').text;
             alm.xAlarmEvent=almNode.find('AlarmEvent').text;
             self.parent.pxGaInOSAlarmCfgList.append(alm);
+        self.parent.xAlarmNum=len(self.parent.pxGaInOSAlarmCfgList);
         #刷新界面
         TreeIlem=self.parent.trGaInOsCfgList.topLevelItem(4);
         for index in range(0, TreeIlem.childCount()):

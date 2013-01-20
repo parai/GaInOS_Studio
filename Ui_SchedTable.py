@@ -2,7 +2,7 @@
 
 # Form implementation generated from reading ui file 'F:\parai@foxmail.com\nt\GaInOS_Studio\SchedTable.ui'
 #
-# Created: Sat Jan 05 22:36:06 2013
+# Created: Sun Jan 20 08:36:59 2013
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!

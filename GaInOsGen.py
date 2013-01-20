@@ -311,7 +311,7 @@ class GaInOsGen():
                 'typedef uint8_t OsCpuSrType;', 
                 'typedef uint8_t OsCpuIplType;', 
                 '#endif /* _OS_CFG_H_ */' ));
-        elif(self.xGaInOSGeneralCfg.xOSCpuType=='ARM'):
+        elif(self.xGaInOSGeneralCfg.xOSCpuType=='ARM920T'):
             fp.write('%s\n%s\n%s\n'%(
                 'typedef uint32_t OsCpuSrType;', 
                 'typedef uint32_t OsCpuIplType;', 
@@ -320,6 +320,11 @@ class GaInOsGen():
             fp.write('%s\n%s\n%s\n\n\n'%(
                 'typedef uint16_t OsCpuSrType;', 
                 'typedef uint16_t OsCpuIplType;', 
+                '#endif /* _OS_CFG_H_ */' ));
+        elif(self.xGaInOSGeneralCfg.xOSCpuType=='Tri-Core'):
+            fp.write('%s\n%s\n%s\n\n\n'%(
+                'typedef uint32_t OsCpuSrType;', 
+                'typedef uint32_t OsCpuIplType;', 
                 '#endif /* _OS_CFG_H_ */' ));
 
     def vDoGenCfgRdyQueueC(self):

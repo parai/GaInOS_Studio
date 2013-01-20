@@ -777,7 +777,6 @@ class wMainClass(QMainWindow, Ui_wMainClass):
         tsk.xTaskEventList=[];
         tsk.xTaskEventNum=0;
 
-
     def vDoRollbackAllTaskToBasic(self):
         """将所有任务改变为BASIC_TASK"""
         for tsk in self.pxGaInOSTaskCfgList:
@@ -796,11 +795,21 @@ class wMainClass(QMainWindow, Ui_wMainClass):
         self.xGaInOSGeneralCfg.xOSCpuType=p0;
         if(self.xGaInOSGeneralCfg.xOSCpuType=='MC9S12(X)'):
             self.spbxMaxIpl.setRange(0, 7);
-        if(self.xGaInOSGeneralCfg.xOSCpuType=='ARM'):
+        elif(self.xGaInOSGeneralCfg.xOSCpuType=='ARM920T'):
             self.spbxMaxIpl.setRange(0, 256);
-        if(self.xGaInOSGeneralCfg.xOSCpuType=='C166'):
+        elif(self.xGaInOSGeneralCfg.xOSCpuType=='C166'):
             self.spbxMaxIpl.setRange(0, 15); 
-
+        elif(self.xGaInOSGeneralCfg.xOSCpuType=='Tri-Core'):
+            self.spbxMaxIpl.setRange(0, 15);
+            QMessageBox(QMessageBox.Information, 'GaInOS Info', 
+                '%s,%s,%s,%s,%s.\n%s'%(
+                    'As Tri-Core\'s special CSA function',
+                    'So a Basic Task named "vTaskIdle" should be configured in priority 0',
+                    'only vTaskIdle in priority 0 and should be autostarted',  
+                    'and vTaskIdle should never Terminate itself',
+                    'but some idle work can be added in the Idle loop',  
+                    'TASK(vTaskIdle)\n{\n    for(;;)\n    {\n        /* Add Some Idle Work Here. */\n    }\n}\n')).exec_();
+        
     @pyqtSignature("QString")
     def on_cmbxOSConfCls_currentIndexChanged(self, p0):
         """修改GaInOS 最高任务类型"""

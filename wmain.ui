@@ -266,7 +266,7 @@ p, li { white-space: pre-wrap; }
         </item>
         <item>
          <property name="text">
-          <string>ARM</string>
+          <string>ARM920T</string>
          </property>
         </item>
         <item>
@@ -274,11 +274,16 @@ p, li { white-space: pre-wrap; }
           <string>C166</string>
          </property>
         </item>
+        <item>
+         <property name="text">
+          <string>Tri-Core</string>
+         </property>
+        </item>
        </widget>
       </item>
      </layout>
     </widget>
-    <widget class="QWidget" name="">
+    <widget class="QWidget" name="layoutWidget">
      <property name="geometry">
       <rect>
        <x>22</x>
