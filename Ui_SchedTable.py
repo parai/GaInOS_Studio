@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'F:\parai@foxmail.com\nt\GaInOS_Studio\SchedTable.ui'
+# Form implementation generated from reading ui file 'SchedTable.ui'
 #
-# Created: Sun Jan 20 08:36:59 2013
+# Created: Wed Jan 23 22:21:55 2013
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -220,14 +220,4 @@ class Ui_ScheduleTable(object):
         self.label_9.setText(QtGui.QApplication.translate("ScheduleTable", "Max Advance:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_10.setText(QtGui.QApplication.translate("ScheduleTable", "Max Retard:", None, QtGui.QApplication.UnicodeUTF8))
         self.label_11.setText(QtGui.QApplication.translate("ScheduleTable", "Precision:", None, QtGui.QApplication.UnicodeUTF8))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    ScheduleTable = QtGui.QDialog()
-    ui = Ui_ScheduleTable()
-    ui.setupUi(ScheduleTable)
-    ScheduleTable.show()
-    sys.exit(app.exec_())
 

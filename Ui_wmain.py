@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'F:\parai@foxmail.com\nt\GaInOS_Studio\wmain.ui'
+# Form implementation generated from reading ui file 'wmain.ui'
 #
-# Created: Sun Jan 20 08:36:59 2013
+# Created: Wed Jan 23 22:21:57 2013
 #      by: PyQt4 UI code generator 4.8.3
 #
 # WARNING! All changes made in this file will be lost!
@@ -499,7 +499,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSä¸­æ–­çš„æœ€å¤§ä¼˜å…ˆçº§</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS中断的最大优先级</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_2.setText(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -515,7 +515,7 @@ class Ui_wMainClass(object):
 "<table style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSä»»åŠ¡çš„æœ€å¤§ä¼˜å…ˆçº§</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS任务的最大优先级</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_3.setText(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -531,18 +531,18 @@ class Ui_wMainClass(object):
 "<table style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSæœ€é«˜ä»»åŠ¡ç±»åž‹</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS最高任务类型</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxOSConfCls.setItemText(0, QtGui.QApplication.translate("wMainClass", "BCC1", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxOSConfCls.setItemText(1, QtGui.QApplication.translate("wMainClass", "BCC2", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxOSConfCls.setItemText(2, QtGui.QApplication.translate("wMainClass", "ECC1", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxOSConfCls.setItemText(3, QtGui.QApplication.translate("wMainClass", "ECC2", None, QtGui.QApplication.UnicodeUTF8))
-        self.cbxRes.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>é…�ç½®GaInOSæ˜¯å�¦ä½¿ç”¨èµ„æº�</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.cbxRes.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>配置GaInOS是否使用资源</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cbxRes.setText(QtGui.QApplication.translate("wMainClass", "cfgOS_USE_RESOURCE", None, QtGui.QApplication.UnicodeUTF8))
-        self.cbxInRes.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>é…�ç½®GaInOSæ˜¯å�¦ä½¿ç”¨å†…éƒ¨èµ„æº�</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.cbxInRes.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>配置GaInOS是否使用内部资源</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cbxInRes.setText(QtGui.QApplication.translate("wMainClass", "cfgOS_USE_INTERNAL_RESOURCE", None, QtGui.QApplication.UnicodeUTF8))
-        self.cbxIsrUseRes.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>é…�ç½®GaInOSçš„ä¸­æ–­ISR2æ˜¯å�¦ä½¿ç”¨èµ„æº�</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.cbxIsrUseRes.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>配置GaInOS的中断ISR2是否使用资源</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cbxIsrUseRes.setText(QtGui.QApplication.translate("wMainClass", "cfgOS_ISR_USE_RES", None, QtGui.QApplication.UnicodeUTF8))
-        self.cbxAlarm.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>é…�ç½®GaInOSæ˜¯å�¦ä½¿ç”¨æŠ¥è­¦å™¨</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.cbxAlarm.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>配置GaInOS是否使用报警器</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cbxAlarm.setText(QtGui.QApplication.translate("wMainClass", "cfgOS_USE_ALARM", None, QtGui.QApplication.UnicodeUTF8))
         self.label_27.setText(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -559,7 +559,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSç›®æ ‡å¹³å�°</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS目标平台</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxCpuType.setItemText(0, QtGui.QApplication.translate("wMainClass", "MC9S12(X)", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxCpuType.setItemText(1, QtGui.QApplication.translate("wMainClass", "ARM920T", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxCpuType.setItemText(2, QtGui.QApplication.translate("wMainClass", "C166", None, QtGui.QApplication.UnicodeUTF8))
@@ -579,7 +579,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSé”™è¯¯è¯Šæ–­çº§åˆ«</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS错误诊断级别</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxStatus.setItemText(0, QtGui.QApplication.translate("wMainClass", "OS_STATUS_STANDARD", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxStatus.setItemText(1, QtGui.QApplication.translate("wMainClass", "OS_STATUS_EXTEND", None, QtGui.QApplication.UnicodeUTF8))
         self.label_9.setText(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -597,7 +597,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSä»»åŠ¡è°ƒåº¦ç­–ç•¥</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS任务调度策略</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxSchedPolicy.setItemText(0, QtGui.QApplication.translate("wMainClass", "FULL_PREEMPTIVE_SCHEDULE", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxSchedPolicy.setItemText(1, QtGui.QApplication.translate("wMainClass", "MIXED_PREEMPTIVE_SCHEDULE", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxSchedPolicy.setItemText(2, QtGui.QApplication.translate("wMainClass", "NONE_PREEMPTIVE_SCHEDULE", None, QtGui.QApplication.UnicodeUTF8))
@@ -623,7 +623,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOS ä»»åŠ¡å †æ ˆå¤§å°�</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS 任务堆栈大小</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_6.setText(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
@@ -639,7 +639,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSä»»åŠ¡ç±»åž‹</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS任务类型</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxTskType.setItemText(0, QtGui.QApplication.translate("wMainClass", "BASIC_TASK", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxTskType.setItemText(1, QtGui.QApplication.translate("wMainClass", "EXTEND_TASK", None, QtGui.QApplication.UnicodeUTF8))
         self.label_7.setText(QtGui.QApplication.translate("wMainClass", "Task Priority:", None, QtGui.QApplication.UnicodeUTF8))
@@ -650,7 +650,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOS ä»»åŠ¡çš„ä¼˜å…ˆçº§</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS 任务的优先级</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_10.setText(QtGui.QApplication.translate("wMainClass", "Task Max Activate Count:", None, QtGui.QApplication.UnicodeUTF8))
         self.spbxTskMaxActivateCount.setToolTip(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -659,7 +659,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSçš„æœ€å¤§æ¿€æ´»æ¬¡æ•°</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS的最大激活次数</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cbxTskAutoStart.setText(QtGui.QApplication.translate("wMainClass", "Task Auto-Start", None, QtGui.QApplication.UnicodeUTF8))
         self.cbxTskPreemtable.setText(QtGui.QApplication.translate("wMainClass", "Task Preemtable", None, QtGui.QApplication.UnicodeUTF8))
         self.tblGaInOsCfg.setTabText(self.tblGaInOsCfg.indexOf(self.tabTask), QtGui.QApplication.translate("wMainClass", "Task", None, QtGui.QApplication.UnicodeUTF8))
@@ -673,7 +673,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOS æ™®é€šèµ„æº�å¤©èŠ±æ�¿ä¼˜å…ˆçº§</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS 普通资源天花板优先级</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.tblGaInOsCfg.setTabText(self.tblGaInOsCfg.indexOf(self.tabRes), QtGui.QApplication.translate("wMainClass", "Resource", None, QtGui.QApplication.UnicodeUTF8))
         self.trInResAssignedTask.headerItem().setText(0, QtGui.QApplication.translate("wMainClass", "Assigned To Task...", None, QtGui.QApplication.UnicodeUTF8))
         self.btnInResAdd.setText(QtGui.QApplication.translate("wMainClass", "<<--", None, QtGui.QApplication.UnicodeUTF8))
@@ -688,7 +688,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOS å†…éƒ¨èµ„æº�çš„å¤©èŠ±æ�¿ä¼˜å…ˆçº§,åº”å¤§äºŽæ‰€æœ‰ä½¿ç”¨è¯¥å†…éƒ¨èµ„æº�çš„ä»»åŠ¡çš„ä¼˜å…ˆçº§</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS 内部资源的天花板优先级,应大于所有使用该内部资源的任务的优先级</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.tblGaInOsCfg.setTabText(self.tblGaInOsCfg.indexOf(self.tabInRes), QtGui.QApplication.translate("wMainClass", "Internal Resource", None, QtGui.QApplication.UnicodeUTF8))
         self.label_15.setText(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>Counter Name:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.leCntName.setText(QtGui.QApplication.translate("wMainClass", "vCnt1", None, QtGui.QApplication.UnicodeUTF8))
@@ -700,7 +700,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSè®¡æ•°å™¨çš„è®¡æ•°ä¸Šé™�</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS计数器的计数上限</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_17.setText(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>Counter Ticks Per Base:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.spbxCntTickBase.setToolTip(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -709,7 +709,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSå®šæ—¶å™¨çš„è®¡æ•°åŸºæ•°</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS定时器的计数基数</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.label_18.setText(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>Counter Minimum Cycle:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.spbxCntMinCycle.setToolTip(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
@@ -718,7 +718,7 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSå®šæ—¶å™¨çš„æœ€å°�å…�è®¸å‘¨æœŸ</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS定时器的最小允许周期</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.tblGaInOsCfg.setTabText(self.tblGaInOsCfg.indexOf(self.tabCnt), QtGui.QApplication.translate("wMainClass", "Counter", None, QtGui.QApplication.UnicodeUTF8))
         self.label_19.setText(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>Alarm Name:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.leAlarmName.setText(QtGui.QApplication.translate("wMainClass", "vAlarm1", None, QtGui.QApplication.UnicodeUTF8))
@@ -739,11 +739,11 @@ class Ui_wMainClass(object):
 "<table border=\"0\" style=\"-qt-table-type: root; margin-top:4px; margin-bottom:4px; margin-left:4px; margin-right:4px;\">\n"
 "<tr>\n"
 "<td style=\"border: none;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">é…�ç½®GaInOSæŠ¥è­¦å™¨çš„ç±»åž‹</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">配置GaInOS报警器的类型</p></td></tr></table></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxAlarmType.setItemText(0, QtGui.QApplication.translate("wMainClass", "ALARM_CALLBACK", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxAlarmType.setItemText(1, QtGui.QApplication.translate("wMainClass", "ALARM_TASK", None, QtGui.QApplication.UnicodeUTF8))
         self.label_21.setText(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>Alarm Callback Name:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
-        self.leAlarmCbk.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>é…�ç½®GaInOSæŠ¥è­¦å™¨å›žè°ƒå‡½æ•°çš„å��ç§°</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
+        self.leAlarmCbk.setToolTip(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>配置GaInOS报警器回调函数的名称</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.leAlarmCbk.setText(QtGui.QApplication.translate("wMainClass", "vAlarm1Cbk", None, QtGui.QApplication.UnicodeUTF8))
         self.lblAlarmTask.setText(QtGui.QApplication.translate("wMainClass", "<html><head/><body><p>Alarm Event Task:</p></body></html>", None, QtGui.QApplication.UnicodeUTF8))
         self.cmbxAlarmTask.setToolTip(QtGui.QApplication.translate("wMainClass", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
@@ -794,14 +794,4 @@ class Ui_wMainClass(object):
         self.actionSave.setText(QtGui.QApplication.translate("wMainClass", "Save", None, QtGui.QApplication.UnicodeUTF8))
         self.actionSave_As.setText(QtGui.QApplication.translate("wMainClass", "Save As ...", None, QtGui.QApplication.UnicodeUTF8))
         self.actionQuit.setText(QtGui.QApplication.translate("wMainClass", "Quit", None, QtGui.QApplication.UnicodeUTF8))
-
-
-if __name__ == "__main__":
-    import sys
-    app = QtGui.QApplication(sys.argv)
-    wMainClass = QtGui.QMainWindow()
-    ui = Ui_wMainClass()
-    ui.setupUi(wMainClass)
-    wMainClass.show()
-    sys.exit(app.exec_())
 
